@@ -24,11 +24,11 @@ The second lesson of the workshop is designed for anyone interested in learning 
 > 2. Each participant needs to have access to a computer with R, RStudio, and Unix/Linux or the Windows Ubuntu app. To get started, follow the directions in the [Setup](setup.html) tab. 
 {: .prereq}
 
-# Workshop Lessons 
+# Workshop Overview 
 
-| Lesson    | Overview |
-| ------- | ---------- |
-| [A Beginner's Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsDataAnalysis/) | Learn more about programming best practices, and how to create R and BASH scripts to automate data analysis. |
-| [A Biologist's Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsPipelineDataAnalysis/) |  Learn how to combine R and BASH scripting to automate the analysis of biological data sets. |
+| Day | Lesson | Description |
+| ------- | ------- | ---------- |
+| 1 | [A Beginner's Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsDataAnalysis/) | Learn more about programming best practices, and how to create R and BASH scripts to automate data analysis. |
+| 2 | [A Biologist's Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsPipelineDataAnalysis/) |  Learn how to combine R and BASH scripting to automate the analysis of biological data sets. |
 
 
