@@ -2,16 +2,16 @@
 ---
 
 
-In this hands-on workshop, participants will learn about biological data analysis with R and Unix/Linux tools, with a focus on techniques for creating modular R and BASH scripts.
+In this two-part workshop, participants will learn about biological data analysis with R and Unix/Linux tools, with a focus on techniques for creating modular R and BASH scripts.
 
 Given the increasing amount of data being generated today, programmatic data analysis is an important skill for a wide range of fields. The R programming language and Unix/Linux command line can be powerful tools for analyzing data. Even more powerfully, the huge variety of R and command line tools can be used together with scripting to create custom pipelines to analyze large or complex data sets.
 
 This workshop begins with an introduction to best practices in both programming and data analysis, then includes a walkthrough of essential programming and scripting techniques for biological data analysis automation using R and Unix/Linux tools. 
 
 ## Audience
-The first part of the workshop is designed for anyone interested in learning more about programming best practices, and how to create R and BASH scripts to automate data analysis. No prior programming or data analysis experience is required.
+The first lesson of this two-part workshop is designed for anyone interested in learning more about programming best practices, and how to create R and BASH scripts to automate data analysis. No prior programming or data analysis experience is required.
 
-The second part of the workshop is designed for anyone interested in learning how to combine R and BASH scripting to automate the analysis of biological data sets. For example, biologists interested in learning how to create pipelines that use a combination of R scripts to analyze and visualize data. Another potential application of the skills learned from this workshop is the ability to create a set of scripts that work together to integrate specific omics tools in a data analysis workflow.
+The second lesson of the workshop is designed for anyone interested in learning how to combine R and BASH scripting to automate the analysis of biological data sets. For example, biologists interested in learning how to create pipelines that use a combination of R scripts to analyze and visualize data. Another potential application of the skills learned from this workshop is the ability to create a set of scripts that work together to integrate specific omics tools in a data analysis workflow.
 
 
 > ## Prerequisites
@@ -24,7 +24,7 @@ The second part of the workshop is designed for anyone interested in learning ho
 > 2. Each participant needs to have access to a computer with R, RStudio, and Unix/Linux or the Windows Ubuntu app. To get started, follow the directions in the [Setup](setup.html) tab. 
 {: .prereq}
 
-# Workshop Overview 
+# Workshop Lessons 
 
 | Lesson    | Overview |
 | ------- | ---------- |
