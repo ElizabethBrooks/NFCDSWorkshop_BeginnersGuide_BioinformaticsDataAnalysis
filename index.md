@@ -2,7 +2,11 @@
 ---
 
 
-Given the increasing amount of data being generated today, programmatic data analysis is an important skill for a wide range of fields. The R programming language and Unix/Linux command line can be powerful tools for analyzing data on their own. More powerfully, the huge variety of R and command line tools can be used together with scripting to create custom pipelines to analyze large or complex data sets.
+In this hands-on workshop, participants will learn about biological data analysis with R and Unix/Linux tools, with a focus on techniques for creating modular R and BASH scripts.
+
+Given the increasing amount of data being generated today, programmatic data analysis is an important skill for a wide range of fields. The R programming language and Unix/Linux command line can be powerful tools for analyzing data. Even more powerfully, the huge variety of R and command line tools can be used together with scripting to create custom pipelines to analyze large or complex data sets.
+
+This workshop begins with an introduction to best practices in both programming and data analysis, then includes a walkthrough of essential programming and scripting techniques for biological data analysis automation using R and Unix/Linux tools. 
 
 ## Audience
 The first part of the workshop is designed for anyone interested in learning more about programming best practices, and how to create R and BASH scripts to automate data analysis. No prior programming or data analysis experience is required.

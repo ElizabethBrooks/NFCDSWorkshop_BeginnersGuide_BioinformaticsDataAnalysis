@@ -5,7 +5,7 @@ title: Setup
 
 # Required Software
 
-Thesse lesson requires the installation of R, RStudio, and BASH. The R open-source software is an object-oriented programming language for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, 
+These lesson requires the installation of R, RStudio, and BASH. The R open-source software is an object-oriented programming language for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, 
 and MacOS. 
 
 RStudio is a set of integrated tools designed to help you be more productive with R. It includes a console, syntax-
