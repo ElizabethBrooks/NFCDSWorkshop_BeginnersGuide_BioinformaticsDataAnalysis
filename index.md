@@ -28,7 +28,7 @@ The second lesson of the workshop is designed for anyone interested in learning 
 
 | Lesson    | Overview |
 | ------- | ---------- |
-| [A Beginners Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsDataAnalysis/) | Learn more about programming best practices, and how to create R and BASH scripts to automate data analysis. |
-| [A Biologists' Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsPipelineDataAnalysis/) |  Learn how to combine R and BASH scripting to automate the analysis of biological data sets. |
+| [A Beginner's Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsDataAnalysis/) | Learn more about programming best practices, and how to create R and BASH scripts to automate data analysis. |
+| [A Biologist's Guide to Programming and Data Analysis with R and BASH](https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsPipelineDataAnalysis/) |  Learn how to combine R and BASH scripting to automate the analysis of biological data sets. |
 
 
