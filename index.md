@@ -1,7 +1,6 @@
 ---
 ---
 
-## Description
 Given the increasing amount of data being generated today, programmatic data analysis is an important skill for a wide range of fields. The R programming language and Unix/Linux command line can be powerful tools for analyzing data on their own. More powerfully, the huge variety of R and command line tools can be used together with scripting to create custom pipelines to analyze large or complex data sets.
 
 ## Audience
