@@ -2,7 +2,7 @@
 ---
 
 
-In this two-part workshop, participants will learn about biological data analysis with R and Unix/Linux tools, with a focus on techniques for creating modular R and BASH scripts.
+This is a two-part workshop series delivered as part of the NFCDS pedagogdy fellowship program. In this workshop series participants will learn about biological data analysis with R and Unix/Linux tools, with a focus on techniques for creating modular R and BASH scripts.
 
 Given the increasing amount of data being generated today, programmatic data analysis is an important skill for a wide range of fields. The R programming language and Unix/Linux command line can be powerful tools for analyzing data. Even more powerfully, the huge variety of R and command line tools can be used together with scripting to create custom pipelines to analyze large or complex data sets.
 
