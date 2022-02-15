@@ -28,8 +28,8 @@ The second lesson of the workshop is designed for anyone interested in learning 
 
 | Day | Lesson | Description |
 | ------- | ------- | ---------- |
-| 1 | [A Beginner's Guide to Programming and Data Analysis with R and BASH](day1Cite) | Learn more about programming best practices, and how to create R and BASH scripts to automate data analysis. |
-| 2 | [A Biologist's Guide to Programming and Data Analysis with R and BASH](day2Cite) |  Learn how to combine R and BASH scripting to automate the analysis of biological data sets. |
+| 1 | [A Beginner's Guide to Programming and Data Analysis with R and BASH][day1Cite] | Learn more about programming best practices, and how to create R and BASH scripts to automate data analysis. |
+| 2 | [A Biologist's Guide to Programming and Data Analysis with R and BASH][day2Cite] |  Learn how to combine R and BASH scripting to automate the analysis of biological data sets. |
 
 
 [day1Cite]: https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsDataAnalysis/
