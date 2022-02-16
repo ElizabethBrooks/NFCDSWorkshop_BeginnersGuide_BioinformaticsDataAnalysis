@@ -33,3 +33,4 @@ The second lesson of the workshop is designed for anyone interested in learning 
 
 
 [day1Cite]: https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsDataAnalysis/
+[day2Cite]: https://elizabethbrooks.github.io/NFCDSWorkshop_BioinformaticsPipelineDataAnalysis/index.html
