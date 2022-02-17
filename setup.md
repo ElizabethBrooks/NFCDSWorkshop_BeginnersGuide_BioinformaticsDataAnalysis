@@ -239,6 +239,7 @@ There are a few different ways that you could use to install the gffread softwar
 > ## Tip!
 >
 > On the Mac OS is is possible to use **conda** to install the gffread command line tool. 
+>
 > **Note:** this does require a few extra steps for Z shel (zsh) users, which includes Mac user of the recent Catalina OS version.
 >
 > ~~~
