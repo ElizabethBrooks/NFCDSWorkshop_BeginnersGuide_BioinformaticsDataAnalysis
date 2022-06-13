@@ -1,6 +1,7 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3260309.svg)](https://doi.org/10.5281/zenodo.3260309)
-
 # NFCDS Workshop - Bioinformatics Data Analysis
+
+## Website
+https://elizabethbrooks.github.io/NFCDSWorkshop_BeginnersGuide_BioinformaticsDataAnalysis/
 
 ## Description
 Given the increasing amount of data being generated today, programmatic data analysis is an important skill for a wide range of fields. The R programming language and Unix/Linux command line can be powerful tools for analyzing data on their own. More powerfully, the huge variety of R and command line tools can be used together with scripting to create custom pipelines to analyze large or complex data sets.
