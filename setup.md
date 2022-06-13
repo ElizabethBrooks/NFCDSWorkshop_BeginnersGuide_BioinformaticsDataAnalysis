@@ -3,15 +3,28 @@ layout: page
 title: Setup
 ---
 
-## **Required Programming Language Software**
+## **Required Software**
 
-These lessons require the installation of R, RStudio, and BASH. The R open-source software is an object-oriented programming language for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, 
-and MacOS. 
+These lessons require the installation of **R** and **RStudio** (optionally **BASH**). The R open-source software is an object-oriented programming language for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS. 
 
 RStudio is a set of integrated tools designed to help you be more productive with R. It includes a console, syntax-
 highlighting editor that supports direct code execution, and a variety of robust tools for plotting, viewing history, debugging, and managing your workspace.
 
 The command line terminal available to Mac OS and Linux is a powerful tool and where the magic happens. It’s excellent for software development, file management, remote analysis, and a myriad of other tasks.
+
+### Mac OS Tips
+
+1. To download R, visit [https://cran.r-project.org/](https://cran.r-project.org/) and at the top of the page, select the macOS operating system.
+- Select the "Download R for macOS" link on the main page.
+- Select the "base" link in the Subdirectories.
+- Select the "R-4.1.2.pkg" link, and the R installer will begin to download. 
+- Open the installer and follow the instructions.
+
+2. To download RStudio, visit [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download) and follow the instructions to:
+- “1. Install R”, which you have already done.
+- “2. Download RStudio Desktop”
+- Select the "Download RStudio for Mac" button and the R Studio installer will begin to download.
+- Open the installer and follow the installation instructions.
  
 ### Windows Tips
 
@@ -27,48 +40,46 @@ The command line terminal available to Mac OS and Linux is a powerful tool and w
 - Select the "Download RStudio for Windows" button and the R Studio installer will begin to download.
 - Open the installer and follow the installation instructions.
 
-3. The Ubuntu terminal for Windows has many of the same features you’ll find using the terminal on Ubuntu for Linux, visit [https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview). Note that you will need a x86 PC running Windows 10.
+3. **Optional -** The Ubuntu terminal for Windows has many of the same features you’ll find using the terminal on Ubuntu for Linux, visit [https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview](https://ubuntu.com/tutorials/ubuntu-on-windows#1-overview). Note that you will need a x86 PC running Windows 10.
 - As a first step the Windows Subsystem for Linux needs to be installed for your version of Windows 10.
-- For Windows 10 systems updated to the Windows 10 Fall Creators update released October 2017, run the following in PowerShell as Administrator: 
+- For Windows 10 systems updated to the Windows 10 Fall Creators update released October 2017, *run the following in PowerShell as __Administrator__*: 
 > ~~~
 > dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 > ~~~
-> {: .language-r}
-- For Windows 10 systems updated to the Windows 10 May 2020 update and newer run the following in PowerShell as Administrator: 
+- For Windows 10 systems updated to the Windows 10 May 2020 update and newer *run the following in PowerShell as __Administrator__*: 
 > ~~~
 > dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 > ~~~
-> {: .language-r}
 - Then restart your computer.
 - Now Ubuntu can be installed from the Microsoft Store:
   - Use the Start menu to launch the Microsoft Store application.
   - Search for Ubuntu and select the first result, "Ubuntu", published by Canonical Group Limited.
   - Click on the Install button. Ubuntu will be downloaded and installed automatically. Progress will be reported within the Microsoft Store application.
 - Ubuntu can now be launched in the same way as any other Windows 10 application, such as searching for and selecting Ubuntu in the Start menu.
-- When launched for the first time, Ubuntu will inform you that it’s "Installing" and you’ll need to wait a few moments. 
-- Then enter a username and password specific to your Ubuntu installation, which don’t need to be the same as your Windows 10 credentials. With this step complete, you’ll find yourself at the Ubuntu bash command line.
 
+**Note:** When launched for the first time, Ubuntu will inform you that it’s "Installing" and you’ll need to wait a few moments. Then *enter a __username and password__ specific to your Ubuntu installation*, which don’t need to be the same as your Windows 10 credentials. With this step complete, you’ll find yourself at the Ubuntu bash command line.
 
-### Mac OS Tips
+## R Package - edgeR
 
-1. To download R, visit [https://cran.r-project.org/](https://cran.r-project.org/) and at the top of the page, select the macOS operating system.
-- Select the "Download R for macOS" link on the main page.
-- Select the "base" link in the Subdirectories.
-- Select the "R-4.1.2.pkg" link, and the R installer will begin to download. 
-- Open the installer and follow the instructions.
+The edgeR R package allows you to perform differential expression biostatistical analysis using omics data.
 
-2. To download RStudio, visit [https://www.rstudio.com/products/rstudio/download/#download](https://www.rstudio.com/products/rstudio/download/#download) and follow the instructions to:
-- “1. Install R”, which you have already done.
-- “2. Download RStudio Desktop”
-- Select the "Download RStudio for Mac" button and the R Studio installer will begin to download.
-- Open the installer and follow the installation instructions.
+The [BiocManager][biocCite] makes it easy to install Bioconductor packages, including the Rsubread and edgeR packages in R. The following R code can be used to install these packages, for example.
 
+Note that the first step in installing any Bioconductor package is to make sure that you have the BiocManager installed *using the R programming language*.
 
-## **Required Bioinformatics Software**
+~~~
+if (!require("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+
+BiocManager::install("edgeR")
+~~~
+{: .language-r}
+
+## **Software for Bioinformatics Lessons**
 
 ### SRA Toolkit
 
-In this workshop we will collect the transcriptomic data we need from the sequence read archive (SRA). Specifically, the transcript sequence data for the paper investigating the effects of UV-B exposure on the larvae of the red flour beetle.
+In the supplemental lessons of this workshop we will collect the transcriptomic data we need from the sequence read archive (SRA). Specifically, the transcript sequence data for the paper investigating the effects of UV-B exposure on the larvae of the red flour beetle.
 
 To download the SRA toolkit:
 1. navigate to the [installation instructions][installSRA]
@@ -280,10 +291,9 @@ First, download the [source package from the Download section on the right side]
 > {: .language-bash}
 {: .callout}
 
+### R Package - Rsubread
 
-### R Packages - Rsubread & edgeR
-
-The final pieces of software you will need to complete the analysis in this workshop are the Rsubread and edgeR R packages. These packages allow you to perform different biostatistical analysis on omics data.
+The Rsubread package allows you to generate metrics on transcriptomic data for downstream analysis. The **featureCounts** function of the Rsubread library allows us to count the number of transcripts that map to each genomic feature in the *Tribolum castaneum* reference genome.
 
 The [BiocManager][biocCite] makes it easy to install Bioconductor packages, including the Rsubread and edgeR packages in R. The following R code can be used to install these packages, for example.
 
@@ -294,11 +304,8 @@ if (!require("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
 
 BiocManager::install("Rsubread")
-
-BiocManager::install("edgeR")
 ~~~
 {: .language-r}
-
 
 [toolkitSRA]: https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?view=toolkit_doc
 [installSRA]: https://github.com/ncbi/sra-tools/wiki/02.-Installing-SRA-Toolkit
